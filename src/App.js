@@ -87,7 +87,7 @@ export default function Home() {
       appRating: data.rating
     });
 
-    // toast.success("Cadastro Realizado com Sucesso");
+    toast.success("Cadastro Realizado com Sucesso");
     alert("Cadastro Realizado com Sucesso");
 
     setArea([]);

@@ -93,7 +93,7 @@ export default function Home() {
 
   return (
     <Flex align="center" height="100vh" direction="column">
-      <Flex padding={6} direction="row" width="200px" justify="center">
+      <Flex padding={6} direction="row" width="200px]" justify="center">
         <img src={logo} width="100%" alt="bella-conecta" />
       </Flex>
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Heading, Flex, Button, Select, Textarea } from "@chakra-ui/core";
 import * as yup from "yup";
 import { Formik, Form } from "formik";
+import { toast } from "react-toastify";
 
 import ChakraInput from "./components/ChakraInput";
 
@@ -85,6 +86,16 @@ export default function Home() {
       ],
       appRating: data.rating
     });
+
+    // toast.success("Cadastro Realizado com Sucesso");
+    alert("Cadastro Realizado com Sucesso");
+
+    setArea([]);
+    setSubarea([]);
+    setAreaValue(0);
+    data.comments = "";
+    data.rating = "";
+    data.doc = "";
   }
 
   function handleAreaValue(e) {

@@ -90,12 +90,8 @@ export default function Home() {
     toast.success("Cadastro Realizado com Sucesso");
     alert("Cadastro Realizado com Sucesso");
 
-    setArea([]);
-    setSubarea([]);
-    setAreaValue(0);
-    data.comments = "";
-    data.rating = "";
-    data.doc = "";
+    window.location.reload();
+    return false;
   }
 
   function handleAreaValue(e) {
